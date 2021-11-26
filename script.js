@@ -12,4 +12,5 @@ console.log(res);
 const deg = res**3; 
 console.log(deg);
 
-console.log(String(deg).substr(0,2));
+console.log(String(deg).substr(0,2)); 
+
