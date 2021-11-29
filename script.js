@@ -13,7 +13,7 @@ console.log(deg);
 console.log(String(deg).substr(0,2)); 
 
 
-let lang = 'en';
+let lang = prompt('Выберите язык (введите "ru" или "en")');
 if (lang === 'ru') {
     console.log('Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье');
 } else if (lang === 'en') {
