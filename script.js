@@ -45,7 +45,7 @@ console.log((namePerson === 'Артем') ? 'директор' :
     'студент');
 
 
-const foo = (arg) => {
+const foo = function(arg) {
     let res = 'Ожидается появление строки...';
     if (typeof arg === "string") {
         const maxLength = 30;
@@ -60,4 +60,4 @@ const foo = (arg) => {
 };
 console.log('foo(): ', foo(5));
 console.log('foo(): ', foo('    Строка менее 30 символов     '));
-console.log('foo(): ', foo('    Строка более 30 символов - ну очень при очень длинная строчка получилась!'));
+console.log('foo(): ', foo('    Строка более 30 символов - самая длинная строка в мире уже написана!!!'));
