@@ -46,7 +46,7 @@ console.log((namePerson === 'Артем') ? 'директор' :
 
 
 const foo = function(arg) {
-    let res = 'Ожидается появление строки...';
+    let res = 'Передана не строка...';
     if (typeof arg === "string") {
         const maxLength = 30;
         const str = arg.trim();
